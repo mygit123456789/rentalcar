@@ -1,0 +1,32 @@
+.search {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+  overflow-y: scroll;
+  background-color: rgba(220, 220, 220, 0.9);
+  padding: 15px 30px;
+  border-radius: 5px;
+  min-width: 1400px;
+}
+
+.search > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.search > div > a {
+  //   width: 100%;
+  //   padding-bottom: 70%;
+  //   height: 0;
+  //   overflow: inherit;
+  //   margin-bottom: inherit;;
+  //   border: none;
+  //   border-radius: inherit;
+}
+.search > header + div {
+  margin-top: 40px;
+}

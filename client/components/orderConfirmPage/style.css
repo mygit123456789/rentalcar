@@ -1,0 +1,57 @@
+.text {
+  color: white
+}
+landing {
+  background-color: rgba(220, 220, 220, 0.7);
+  padding: 15px 30px;
+  border-radius: 5px;
+}
+
+.table {
+  color: #ffffff;
+  font-size: 20px;
+}
+.table > caption {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.landing > h1 {
+  color: #b10dc9;
+  font-family: Skia;
+  font-weight: normal;
+}
+
+.landing > input,
+.landing > form > input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.landing > form {
+  width: 100%;
+  min-width: 300px;
+}
+
+.landing > a {
+  margin-top: 15px;
+  padding: 10px 40px;
+  background-color: #333;
+  color: #fafafa;
+  border-color: transparent;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.landing > a:hover,
+.landing > a:focus {
+  background-color: #666;
+}
+
+.landing > a:active {
+  background-color: #fafafa;
+  color: #333;
+  border-color: #333;
+}

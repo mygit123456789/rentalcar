@@ -1,0 +1,58 @@
+header {
+  display: block;
+}
+header + div {
+  margin-top: 40px;
+}
+header + section {
+  margin-top: 25px;
+}
+.header {
+  z-index: 10;
+  position: fixed;
+  display: flex;
+  flex-flow: row wrap;
+
+  align-items: baseline;
+  justify-content: space-between;
+  align-content: flex-start;
+
+  text-align: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: #fafafa;
+  opacity: 25%;
+  padding: 8px 30px;
+}
+
+header > h1 {
+  font-family: Skia;
+  font-weight: normal;
+  color: #b10dc9;
+  margin: 0;
+}
+
+header > h1 > a {
+  color: #b10dc9;
+  text-decoration: none;
+}
+
+header > h2 {
+  font-weight: normal;
+  margin: 0;
+}
+
+header > h2 > a {
+  color: #aaa;
+  text-decoration: none;
+}
+header > input {
+  min-width: 250px;
+  max-width: 350px;
+  width: 33%;
+  padding: 4px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
